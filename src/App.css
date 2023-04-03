@@ -1,0 +1,43 @@
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Lobster', cursive;
+  text-align: center;
+  background-image: radial-gradient(aqua, cyan, cadetblue);
+}
+
+.main {
+  width: 30em;
+  height: 20em;
+  margin-left: calc((100vw - 30em)/2);
+  margin-top: calc((50vh - 20em)/2);
+}
+
+input {
+  border-radius: 30px;
+  padding: 10px;
+  margin: 10px;
+}
+button {
+  font-family: 'Lobster', cursive;
+  font-size: 1em;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  background-color: crimson;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: dodgerblue;
+}
+.inputs {
+  margin: 10px;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: orangered;
+}
